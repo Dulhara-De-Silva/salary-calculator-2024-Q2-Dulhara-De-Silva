@@ -1,0 +1,54 @@
+body{
+    font-family: I;
+}
+
+h4{
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+.calculate-salary-box{
+    width: 680px;
+    height: 616px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+}
+
+.wrapper-calculate{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.label-tooltip{
+    color: #757575;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+input[type="text"]{
+    border: 1px solid #E0E0E0;
+    width: 356px;
+    border-radius: 4px;
+    height: 48px;
+}
+
+.add-button{
+    color: #0052EA;
+    line-height: 1.5;
+}
+
+.reset-wrapper{
+    vertical-align: middle;
+    float: right;
+    margin-top: 5px;
+    display: flex;
+}
+
+hr{
+    border: 1px solid #E0E0E0;
+}
+
+.sub-heading{
+    font-size: 18px;
+    line-height: 24px;
+}
