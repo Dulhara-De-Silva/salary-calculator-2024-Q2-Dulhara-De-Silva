@@ -1,5 +1,5 @@
 body{
-    font-family: I;
+    display: flex;
 }
 
 h4{
@@ -12,9 +12,10 @@ h4{
     height: 616px;
     border-radius: 8px;
     border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
 }
 
-.wrapper-calculate{
+.wrapper{
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -27,9 +28,19 @@ h4{
 
 input[type="text"]{
     border: 1px solid #E0E0E0;
-    width: 356px;
+    width: 250px;
     border-radius: 4px;
-    height: 48px;
+    height: 25px;
+}
+
+.result-salary-box .wrapper .result-headings label[type="text"]{
+    float: right;
+    border-color: blue;
+}
+
+.result-salary-box .wrapper .result-headings input[type="text"]{
+    float: right;
+    border-color: #E0E0E0;
 }
 
 .add-button{
@@ -51,4 +62,45 @@ hr{
 .sub-heading{
     font-size: 18px;
     line-height: 24px;
+    font-weight: bold;
+}
+
+
+.result-salary-box{
+    margin-left: 10px;
+    width: 510px;
+    height: 614px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+}
+
+.result-container{
+    display: flex;
+    float: left;
+    
+}
+
+.result-salary-box .result-container .result-headings label{
+    /* line-height: 30px; */
+    font-weight: 400;
+}
+
+.result-salary-box .result-container .result-amounts input{
+    /* line-height: 1.5; */
+    box-sizing: border-box;
+    border-color: #E0E0E0;
+
+}
+
+.net-salary-border{
+    width: 480px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    vertical-align: middle;
+    
+}
+
+.net-salary-label{
+    padding: 10px;
 }
